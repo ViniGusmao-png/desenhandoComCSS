@@ -1,0 +1,13 @@
+.corpo{
+    display: flex;
+    height: 500px;
+    width: 300px;
+    background-color: yellow;
+    transform: rotate(4deg);
+}
+.lateral{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(134, 134, 34);
+    transform: rotate(deg);
+}
