@@ -1,85 +1,187 @@
-.container{
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  border-radius: 50%;
-  width: 500px;
-  height: 500px;
-  background: red
-}
-.laranja{
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  border-radius: 50%;
-  height: 450px;
-  width: 450px;
-  background: orange;
+
+ .container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    width: 353px;
+    height: 443px;
+    background: red
+  }
   
-}
-.amarelo{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 400px;
-  width: 400px;
-  background: yellow;
-}
-.verde{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 350px;
-  width: 350px;
-  background: green;
-}
-.azul{
-  border-radius: 50%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 300px;
-  width: 300px;
-  background: #00FFFF;
-}
-.anil{
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 250px;
-  width: 250px;
-  background: #0000FF;
-}
-.violeta{
-  border-radius: 50%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  height: 200px;
-  width: 200px;
-  background: #8B00FF;
-}
-.branco{
-  margin-top: 13%;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  background: white;
-}
-.white{
-  position: absolute;
-  margin-top: -250px;
-  height: 500px;
-  width: 500px;
-  background-color: rgb(255, 255, 255);
-}
-img{
-  margin-top: -300px;
-  margin-left: 175px;
-  position: absolute;
-  width: 150px;
+  .laranja {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 318px;
+    height: 390px;
+    background: orange;
+
+  }
+
+  .amarelo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 292px;
+    height: 351px;
+    background: yellow;
+  }
+
+  .verde {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 256px;
+    height: 310px;
+    background: green;
+  }
+
+  .azul {
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 223px;
+    height: 275px;
+    background: #00FFFF;
+  }
+
+  .anil {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 201px;
+    height: 247px;
+    background: #0000FF;
+  }
+
+  .violeta {
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 163px;
+    height:200px;
+    background: #8B00FF;
+  }
+
+  .branco {
+    margin-top: 13%;
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    background: white;
+  }
+
+  .white {
+    padding-right: 1px;
+    position: absolute;
+    margin-top: -271px;
+    width: 510px;
+    height:501px;
+    background-color: rgb(255, 255, 255);
+  }
+@media screen and (min-width:510px) {
+
+  .container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    width: 501px;
+    height: 500px;
+    background: red
+  }
+
+  .laranja {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    background: orange;
+
+  }
+
+  .amarelo {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    background: yellow;
+  }
+
+  .verde {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    background: green;
+  }
+
+  .azul {
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    background: #00FFFF;
+  }
+
+  .anil {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 250px;
+    background: #0000FF;
+  }
+
+  .violeta {
+    border-radius: 50%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background: #8B00FF;
+  }
+
+  .branco {
+    margin-top: 13%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: white;
+  }
+
+  .white {
+    position: absolute;
+    margin-top: -250px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  img {
+    margin-top: -300px;
+    margin-left: 175px;
+    position: absolute;
+    width: 150px;
+  }
+
 }
